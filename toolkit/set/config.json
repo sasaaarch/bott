@@ -20,14 +20,14 @@
     "autoreadgc": true,
     "welcome": "linkpreview",
     "first": {
-      "energy": 200,
+      "energy": 50,
       "flow": 1,
       "coins": 1,
       "chargeRate": 0.003,
       "chargingSpeed": 1000,
       "maxCharge": 100,
       "trialPrem": {
-        "energy": 1500,
+        "energy": 200,
         "chargeRate": 0.1,
         "maxCharge": 300,
         "time": "1hari"
@@ -89,7 +89,7 @@
     "hadiah": {
       "tebakgambar": 5,
       "susunkata": 6,
-      "family100": 75
+      "family100": 15
     }
   },
   "api": {
