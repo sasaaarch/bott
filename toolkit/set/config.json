@@ -25,11 +25,11 @@
       "coins": 1,
       "chargeRate": 0.003,
       "chargingSpeed": 1000,
-      "maxCharge": 100,
+      "maxCharge": 50,
       "trialPrem": {
         "energy": 200,
         "chargeRate": 0.1,
-        "maxCharge": 300,
+        "maxCharge": 100,
         "time": "1hari"
       },
       "autoai": {
