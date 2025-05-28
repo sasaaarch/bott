@@ -29,7 +29,7 @@ export const role = function(chat){
     } else if (chat <= 10000) {
         res = "Pacar";
     } else {
-        res = "🎀Soulmate🦋"
+        res = "Soulmate"
     }
     return res;
 }
