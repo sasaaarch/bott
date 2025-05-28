@@ -27,9 +27,9 @@
       "chargingSpeed": 1000,
       "maxCharge": 50,
       "trialPrem": {
-        "energy": 200,
+        "energy": 50,
         "chargeRate": 0.1,
-        "maxCharge": 100,
+        "maxCharge": 70,
         "time": "1hari"
       },
       "autoai": {
