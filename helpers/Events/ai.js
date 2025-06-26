@@ -460,7 +460,7 @@ ${loraText}
 	})
 	
     ev.on({ 
-        cmd: ['bell', 'autoai', 'aichat', 'ai_interactive'],
+        cmd: ['zea', 'autoai', 'aichat', 'ai_interactive'],
         tag: "ai",
         listmenu: ["autoai"]
     }, async () => {
