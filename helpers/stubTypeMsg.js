@@ -47,7 +47,7 @@ ${group.desc}`:"")
                 forwardingScore: 19,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: "120363301254798220@newsletter",
+                    newsletterJid: "",
                     serverMessageId: 152
                 },
                 mentionedJid: newMember
@@ -119,7 +119,7 @@ ${group.desc}`:"")
                 forwardingScore: 19,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: "120363301254798220@newsletter",
+                    newsletterJid: "",
                     serverMessageId: 152
                 }
             }
@@ -168,7 +168,7 @@ Selamat tinggal ${members}`
                 forwardingScore: 19,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: "120363301254798220@newsletter",
+                    newsletterJid: "",
                     serverMessageId: 152
                 },
                 mentionedJid: oldMember
@@ -240,7 +240,7 @@ Selamat tinggal ${members}`
                 forwardingScore: 19,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: "120363301254798220@newsletter",
+                    newsletterJid: "",
                     serverMessageId: 152
                 }
             }
