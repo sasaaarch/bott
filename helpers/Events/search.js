@@ -80,7 +80,7 @@ export default async function on({ cht, Exp, store, ev, is }) {
 		listmenu: ['pinsticker'],
 		tag: "search",
 		energy: 5,
-		args: `Mau cari sticker apa?`
+		args: `Mau zea cariin sticker apa?`
 	}, async ({ args }) => {
 	  try {
 	    let res = await fetch(`${api.xterm.url}/api/search/pinterest-image?query=${args}&key=${api.xterm.key}`).then(a => a.json())
