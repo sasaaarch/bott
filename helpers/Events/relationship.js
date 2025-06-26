@@ -97,7 +97,7 @@ export default async function on({ cht, Exp, store, ev, is }) {
                 forwardingScore: 19,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: "120363301254798220@newsletter",
+                    newsletterJid: "",
                 }
             }
         }
@@ -786,13 +786,13 @@ _Code ${code} akan dihapus dalam kurun waktu ${time}_
    ➡️ Gunakan \`@username\` diikuti \`|\` dan jumlah energi.
    - \`.transfer @username|[jumlah energi]\`
    
-   _Contoh_: \`.transfer @rifza|10\`
+   _Contoh_: \`.transfer @sasa|10\`
 
 🔸 *Cara #3 - Dengan Nomor Target*  
    ➡️ Sertakan nomor lengkap pengguna diikuti \`|\` dan jumlah energi.
    - \`.transfer +62xxxxxxx|[jumlah energi]\`
    
-   _Contoh_: \`.transfer +62831xxxxxxx|10\`
+   _Contoh_: \`.transfer +62877xxxxxxx|10\`
 
 ⚠️ *[Catatan]*
 - ℹ️Mentransfer energy akan mengurangi energy anda, dan menambahkannya ke nomor target
