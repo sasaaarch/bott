@@ -86,9 +86,9 @@ export default async function on({ cht, Exp, store, ev, is }) {
     }, async ({ args, urls }) => {
         const _key = keys[sender]
         let q = urls?.[0] || args || null
-        if (!q) return cht.reply('Harap sertakan url/judul videonya!')
+        if (!q) return cht.reply('Kasih zea url/judul videonya!')
         try {
-            await cht.edit("Searching...", _key)
+            await cht.edit("zea cari sebentar...", _key)
             let search = (await fetch(`${api.xterm.url}/api/search/youtube?query=${q}&key=${api.xterm.key}`).then(a => a.json())).data
             await cht.edit("Downloading...", _key)
             let item = search.items[0]
