@@ -227,7 +227,7 @@ export default async function on({
 		listmenu: ['brat'],
 		tag: "maker",
 		energy: 5,
-		args: `Example: ${cht.msg} halo`
+		args: `Example: ${cht.msg} sasa baik hati pake banget`
 	}, async ({ args }) => {
 	    let brat = [
 	      "https://brat.xtermai.xyz/?text="
@@ -252,7 +252,7 @@ export default async function on({
 		listmenu: ['bratvideo'],
 		tag: "maker",
 		energy: 20,
-		args: `Example: ${cht.msg} halo aku bella`
+		args: `Example: ${cht.msg} halo aku zea`
 	}, async () => {
 	    let token = String(Date.now()).to('base64').to('charCode').to('base64').to('utf16le')
         
