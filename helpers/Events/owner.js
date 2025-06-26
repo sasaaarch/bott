@@ -15,8 +15,8 @@ const roles = {/*
   Role ini berdasarkan role default dari role.js
   kalo mau ubah ini wajib ubah role.js terlebih dahulu 
 */
-  "Gak kenal": 0,
-  "Baru kenal": 10,
+  "Musuh Bebuyutan": 0,
+  "Musuh Biasa": 10,
   "Temen biasa": 31,
   "Temen Ngobrol": 51,
   "Temen Gosip": 101,
@@ -721,7 +721,7 @@ export default async function on({ cht, Exp, store, ev, is }) {
         isOwner: true,
         tag: "owner"
     }, async ({ args }) => {
-      await cht.reply("Proses backup dimulai...")
+      await cht.reply("Proses backup zea dimulai...")
       let b = "./backup.tar.gz"
       let s = await Exp.func.createTarGz("./",b)
       if(!s.status) return cht.reply(s.msg)
