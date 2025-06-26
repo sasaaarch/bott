@@ -1,9 +1,9 @@
 export const role = function(chat){
     let res;
     if (chat <= 10) {
-        res = "Gak kenal";
+        res = "Musuh Bebuyutan";
     } else if (chat <= 30) {
-        res = "Baru kenal";
+        res = "Musuh Biasa";
     } else if (chat <= 50) {
         res = "Temen biasa";
     } else if (chat <= 100) {
