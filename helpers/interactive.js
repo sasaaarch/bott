@@ -132,12 +132,12 @@ async function In({ cht,Exp,store,is,ev }) {
                     }
 		          let date = (userData.banned && (userData.banned > Date.now())) ? userData.banned:Date.now() 
                   let bantime = (date +_time)
-                  await Exp.sendMessage(sender, { text: `Anda telah di baned selama ${tme} karena terus melakuka tag hingga ${maxTag} kali❗️` })
+                  await Exp.sendMessage(sender, { text: `Anda telah di baned selama ${tme} karena terus melakuka tag hingga ${4} kali❗️` })
 		          return memories.setItem(sender, "banned", bantime)
 		        }
 		        //if(is.botAdmin) await cht.delete()
 		        
-		        let rsn = `\`JANGAN TAG DIA❗\`\nDia sedang *AFK* dengan alasan: *${tagAfk.reason}*\nSejak ${func.dateFormatter(tagAfk.time, "Asia/Jakarta")}\n\n*[ ⚠️INFO ]*\n_Jangan me-reply/tag orang yang sedang afk!._\n_*Kamu sudah mengetag dia sebanyak ${tagAfk.taggedBy[sender]}x!*_\n_Jika terus melakukan tag hingga ${maxTag}x, jika kamu melakukan tag atau balasan akan dibanned selama 1 hari!_`
+		        let rsn = `\`JANGAN TAG DIA😡\`\nDia sedang *AFK* dengan alasan: *${tagAfk.reason}*\nSejak ${func.dateFormatter(tagAfk.time, "Asia/Jakarta")}\n\n*[ ⚠️INFO ]*\n_Jangan me-reply/tag orang yang sedang afk!._\n_*Kamu sudah mengetag dia sebanyak ${tagAfk.taggedBy[sender]}x!*_\n_Jika terus melakukan tag hingga ${4}x, jika kamu melakukan tag atau balasan akan dibanned zea selama 1 hari!_`
 		        await cht.reply(rsn)
 		        memories.setItem(cht.mention[0], "afk", tagAfk)
 		        break
@@ -148,14 +148,14 @@ async function In({ cht,Exp,store,is,ev }) {
 		        memories.delItem(sender, "afk")
 		        break
 		    case is.antibot:
-                cht.warnGc({ type: "antibot", warn: "Bot terdeteksi!, harap aktifkan mute di group ini atau ubah mode menjadi self!", kick:"Anda akan dikeluarkan karena tidak menonaktifkan bot hingga peringatan terakhir!", max: 5 })
+                cht.warnGc({ type: "antibot", warn: "Bot terdeteksi!, harap aktifkan mute di group ini atau ubah mode menjadi self!", kick:"Anda akan dikeluarkan zea karena tidak menonaktifkan bot hingga peringatan terakhir!", max: 5 })
                 break
 			case is.antilink:
-                await cht.warnGc({ type: "antilink", warn: "Anda terdeteksi mengirimkan link!. Harap ikuti peraturan disini untuk tidak mengirim link!", kick:"Anda akan dikeluarkan karena melanggar peraturan grup untuk tidak mengirim link hingga peringatan terakhir!", max: 3})
+                await cht.warnGc({ type: "antilink", warn: "Anda terdeteksi mengirimkan link!. Harap ikuti peraturan disini untuk tidak mengirim link!", kick:"Anda akan dikeluarkan zea karena melanggar peraturan grup untuk tidak mengirim link hingga peringatan terakhir!", max: 3})
 				cht.delete()
 				break
 			case is.antiTagall:
-                await cht.warnGc({ type: "antitagall", warn: "Anda terdeteksi melakukan tagall/hidetag. Harap ikuti peraturan disini untuk tidak melakukan tagall/hidetag karena akan mengganggu member disini!", kick:"Anda akan dikeluarkan karena melanggar peraturan grup untuk tidak melakukan tagall/hidetag hingga peringatan terakhir!", max: 3})
+                await cht.warnGc({ type: "antitagall", warn: "Anda terdeteksi melakukan tagall/hidetag. Harap ikuti peraturan disini untuk tidak melakukan tagall/hidetag karena akan mengganggu member dan admin disini!", kick:"Anda akan dikeluarkan zea karena melanggar peraturan grup untuk tidak melakukan tagall/hidetag hingga peringatan terakhir!", max: 3})
 				cht.delete()
 				break
 			case isEvalSync:
@@ -258,7 +258,7 @@ async function In({ cht,Exp,store,is,ev }) {
 						date: func.newDate(),
 						role: `temennya ${ownername}`,
 						msgtype: cht?.type,
-						custom_profile: func.tagReplacer(`Kamu adalah asisten pemilikmu/ownermu yang bernama ${ownername}. Tugasmu adalah memberitahu siapa pun yang menghubungi bahwa ${ownername} sedang off karena alasan "${cfg.offline.reason}" dan telah offline sejak ${func.dateFormatter(cfg.offline.time,'Asia/Jakarta')} jadi kamu bertugas untuk memberitahukan itu. Jika mereka bertanya tentang alasan ${ownername} offline, ulangi informasi yang sama dengan nada sopan.\n\n**Sifat dan kepribadianmu**:\n${cfg.logic}`, {
+						custom_profile: func.tagReplacer(`Kamu adalah asisten pemilikmu/ownermu yang bernama ${sasa}. Tugasmu adalah memberitahu siapa pun yang menghubungi bahwa ${sasa} sedang off karena alasan "${cfg.offline.reason}" dan telah offline sejak ${func.dateFormatter(cfg.offline.time,'Asia/Jakarta')} jadi kamu bertugas untuk memberitahukan itu. Jika mereka bertanya tentang alasan ${sasa} offline, ulangi informasi yang sama dengan nada sopan.\n\n**Sifat dan kepribadianmu**:\n${cfg.logic}`, {
 							botfullname,
 							botnickname
 						}),
