@@ -29,7 +29,7 @@ apt install git
 5. Cloning repo
 
 ```bash
-git clone https://github.com/sasaaarch/bot5
+git clone https://github.com/sasaaarch/bott
 ```
 
 ## Cara Pasang
@@ -39,7 +39,7 @@ git clone https://github.com/sasaaarch/bot5
 1. Saat Anda mendapatkan kode sumber ini, pastikan untuk menginstal semua modul yang diperlukan dengan menjalankan perintah ini di terminal atau command prompt:
 
 ```bash
-cd bot5
+cd bott
 ```
 ```bash
 npm install
