@@ -18,8 +18,8 @@ export default async function on({ cht, Exp, store, ev, is }) {
         isBotAdmin: true,
     }, async() => {
         let opts = {
-          open: ["buka", "open"],
-          close: ["tutup", "close"],
+          open: ["buka", "open" , "o"],
+          close: ["tutup", "close" , "c"],
           link: ["link","linkgroup","linkgc"],
           reset: ["resetlink","revokelink","revokeinvitelink"],
           locked: ["locked-change"],
@@ -104,7 +104,7 @@ export default async function on({ cht, Exp, store, ev, is }) {
     })
     
     ev.on({ 
-        cmd: ['kick','add'],
+        cmd: ['usir','culik'],
         listmenu: ['kick','add'],
         tag: 'group',
         isGroup: true,
@@ -130,12 +130,12 @@ export default async function on({ cht, Exp, store, ev, is }) {
         let pp = await Exp.profilePictureUrl(cht.mention[0])
         Exp.sendMessage(cht.id, { image: { url: pp}})
       } catch { 
-         cht.reply("Gabisa, keknya dia gapake pp")
+         cht.reply("Gabisa zea ambil, kayaknya dia gapake pp")
       }
 	})
 	
 	ev.on({ 
-        cmd: ['tagall','hidetag'],
+        cmd: ['tagall','hidetag','h'],
         listmenu: ['tagall','hidetag'],
         tag: 'group',
         isGroup: true,
