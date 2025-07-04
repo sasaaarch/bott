@@ -146,7 +146,7 @@ async function launch() {
 	      let { block, reject } = cfg.call
 	      if(reject){
 	        await Exp.rejectCall(id, from)
-	        await Exp.sendMessage(from, { text: "⚠️JANGAN TELFON❗" })
+	        await Exp.sendMessage(from, { text: "JANGAN TELFON❗" })
 	      }
 	      if(block){
 	        let text = `\`⚠️KAMU TELAH DI BLOKIR!⚠️\``
