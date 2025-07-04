@@ -84,14 +84,14 @@ Example:
 - .delprem
 
  - *#2* => _Dengan tag target_
-- .kurangprem @rifza|1d
-- .addprem @rifza|1d
-- .delprem @rifza|1d
+- .kurangprem @sasa|1d
+- .addprem @sasa|1d
+- .delprem @sasa|1d
  
  - *#2* => _Dengan nomor target_
-- .addprem +62 831-xxxx-xxxx|1d
-- .kurangprem +62 831-xxxx-xxxx|1d
-- .delprem +62 831-xxxx-xxxx|1d
+- .addprem +62 877-xxxx-xxxx|1d
+- .kurangprem +62 877-xxxx-xxxx|1d
+- .delprem +62 877-xxxx-xxxx|1d
 
 *Unit Waktu yang Didukung:*
 - s, second, seconds, detik
@@ -101,19 +101,19 @@ Example:
 - w, week, weeks, minggu
 
 *Contoh lain terkait cara menggunakan dengan unit waktu yang berbeda:*
-- .addprem @rifza|30 detik 
+- .addprem @sasa|30 detik 
     ➡️ Menambahkan 30 detik.
-- .addprem @rifza|1 menit 
+- .addprem @sasa|1 menit 
     ➡️ Menambahkan 1 menit.
-- .addprem @rifza|1 jam 15 detik 
+- .addprem @sasa|1 jam 15 detik 
     ➡️ Menambahkan 1 jam 15 detik.
-- .addprem @rifza|2 hari 4 jam 
+- .addprem @sasa|2 hari 4 jam 
     ➡️ Menambahkan 2 hari 4 jam.
-- .addprem @rifza|1 minggu 
+- .addprem @sasa|1 minggu 
     ➡️ Menambahkan 1 minggu.
-- .addprem @rifza|1w 2d 3h 
+- .addprem @sasa|1w 2d 3h 
     ➡️ Menambahkan 1 minggu 2 hari 3 jam.
-- .addprem @rifza|1d 2h 30m 15s 
+- .addprem @sasa|1d 2h 30m 15s 
     ➡️ Menambahkan 1 hari 2 jam 30 menit 15 detik.
 
 \`Semoga panduan ini dibaca dengan teiti agar tidak lagi menanyakan kepada admin terkait cara penggunaanya, terimakasih\`
@@ -227,12 +227,12 @@ Contoh:
 - .unbanned
 
  - *#2* => _Dengan tag target_
-- .banned @rifza|1d
-- .unbanned @rifza
+- .banned @sasa|1d
+- .unbanned @sasa
 
  - *#3* => _Dengan nomor target_
-- .banned +62 831-xxxx-xxxx|1d
-- .unbanned +62 831-xxxx-xxxx
+- .banned +62 877-xxxx-xxxx|1d
+- .unbanned +62 877-xxxx-xxxx
 
 *Unit Waktu yang Didukung:*
 - s, second, seconds, detik
@@ -242,19 +242,19 @@ Contoh:
 - w, week, weeks, minggu
 
 *Contoh lain terkait cara menggunakan dengan unit waktu yang berbeda:*
-- .banned @rifza|30 detik 
+- .banned @sasa|30 detik 
     ➡️ Melakukan banned selama 30 detik.
-- .banned @rifza|1 menit 
+- .banned @sasa|1 menit 
     ➡️ Melakukan banned selama 1 menit.
-- .banned @rifza|1 jam 15 detik 
+- .banned @sasa|1 jam 15 detik 
     ➡️ Melakukan banned selama 1 jam 15 detik.
-- .banned @rifza|2 hari 4 jam 
+- .banned @sasa|2 hari 4 jam 
     ➡️ Melakukan banned selama 2 hari 4 jam.
-- .banned @rifza|1 minggu 
+- .banned @sasa|1 minggu 
     ➡️ Melakukan banned selama 1 minggu.
-- .banned @rifza|1w 2d 3h 
+- .banned @sasa|1w 2d 3h 
     ➡️ Melakukan banned selama 1 minggu 2 hari 3 jam.
-- .banned @rifza|1d 2h 30m 15s 
+- .banned @sasa|1d 2h 30m 15s 
     ➡️ Melakukan banned selama 1 hari 2 jam 30 menit 15 detik.
 
 \`Pastikan membaca panduan ini dengan teliti agar tidak perlu bertanya lebih lanjut kepada admin terkait cara penggunaannya. Terima kasih.\``
@@ -270,10 +270,10 @@ Contoh:
 - .setrole 🎀Soulmate🦋
 
  - *#2* => _Dengan tag target_
-- .setrole @rifza|🎀Soulmate🦋
+- .setrole @sasa|🎀Soulmate🦋
 
  - *#3* => _Dengan nomor target_
-- .setrole +62 831-xxxx-xxxx|🎀Soulmate🦋
+- .setrole +62 877-xxxx-xxxx|🎀Soulmate🦋
 
 \`LIST ROLE\`
 <role>
